@@ -1,0 +1,42 @@
+# Python Virtual Environments
+venv/
+venv312/
+*.venv/
+env/
+
+# Node & Next.js Build Outputs
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.next/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# System & OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs & Temporary Upload Data
+*.log
+backend/app/models/*.log
+data/processed/temp_upload.csv
+scratch/
+
+# Environment Variables & IDE
+.env
+.env.local
+.env.development.local
+.env.production.local
+.vscode/
+.idea/

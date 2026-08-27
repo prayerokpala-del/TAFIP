@@ -1,0 +1,54 @@
+{
+  "selected_algorithm": "XGBoost Regressor",
+  "metrics": {
+    "random_forest": {
+      "r2": 0.8681,
+      "mae": 2.492,
+      "rmse": 3.6564
+    },
+    "xgboost": {
+      "r2": 0.895,
+      "mae": 2.2869,
+      "rmse": 3.3546
+    },
+    "selected": {
+      "r2": 0.895,
+      "mae": 2.2869,
+      "rmse": 3.3546
+    }
+  },
+  "feature_importances": {
+    "Trust_Perception_Score": 0.5513,
+    "Satisfaction_Score": 0.0871,
+    "Actual_Security_Score": 0.0862,
+    "C_Matrix_6_num": 0.0805,
+    "Perceived_Security_Score": 0.0621,
+    "Adoption_Intention_Score": 0.0613,
+    "C_Matrix_5_num": 0.0214,
+    "Frequency_norm": 0.0202,
+    "C_Matrix_4_num": 0.0107,
+    "Duration_norm": 0.0058,
+    "C_Matrix_3_num": 0.0043,
+    "Security_Issue_norm": 0.0043,
+    "Age_norm": 0.0022,
+    "C_Matrix_2_num": 0.0015,
+    "C_Matrix_1_num": 0.0012
+  },
+  "feature_columns": [
+    "Trust_Perception_Score",
+    "Perceived_Security_Score",
+    "Adoption_Intention_Score",
+    "Satisfaction_Score",
+    "Actual_Security_Score",
+    "Age_norm",
+    "Duration_norm",
+    "Frequency_norm",
+    "Security_Issue_norm",
+    "C_Matrix_1_num",
+    "C_Matrix_2_num",
+    "C_Matrix_3_num",
+    "C_Matrix_4_num",
+    "C_Matrix_5_num",
+    "C_Matrix_6_num"
+  ]
+}
