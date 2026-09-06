@@ -42,3 +42,4 @@ scratch/
 .idea/
 tafip.csv
 .ipynb_checkpoints/
+*.docx
