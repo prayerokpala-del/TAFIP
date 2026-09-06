@@ -43,3 +43,8 @@ scratch/
 tafip.csv
 .ipynb_checkpoints/
 *.docx
+tafip.csv
+data/processed/cleaned_tafip_100.csv
+data/processed/nlp_interview_features.json
+.ipynb_checkpoints/
+*.docx
